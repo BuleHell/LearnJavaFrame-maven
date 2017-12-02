@@ -17,9 +17,19 @@ public class test1Test {
 
     @Test
     public void addTest() {
+        System.out.println("test add");
         int sum = t.add(3, 4);
         Assert.assertEquals(sum, 7);
     }
+
+    @Test
+    public void subTest() {
+        System.out.println("test sub");
+        int sum = t.sub(3, 4);
+        Assert.assertEquals(sum, -1);
+    }
+
+
 
     @After
     public void down() {
